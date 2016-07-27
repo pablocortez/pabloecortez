@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+html {
+    margin: 0; padding: 0;
+    background-color: #272822;
+    background: url(images/profile-up.jpg);
+    background-repeat: repeat-x;;
+    background-size: cover;
+    background-position: -400px -90px;
+    color: white;
+    overflow: hidden;
+}
+pre {
+    font-family: 'Source Code Pro';
+    text-align: left;
+    font-size: 24px;
+}
+
+.info {
+  font-family: 'Source Code Pro';
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.semi-colon {
+    color: #f92672;
+}
+.key {
+    color: #fdf5a9;
+}
+.numbers {
+    color: #a544ff;
+}
+.info a {
+    color: #66d9ef;
+    text-decoration: none;
+}
+.info a:hover {
+    text-decoration: underline;
+    text-decoration-line: underline;
+}
+
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+
+/* Larger than Desktop HD */
+
+@media (min-width: 1200px) {
+    .info-back {
+      background-color: rgb(31, 29, 31);
+      height: 200%;
+      float: right;
+      padding-top: 100px;
+      padding-right: 120px;
+      margin-right: -10px;
+      margin-top: -10px;
+      padding-bottom: 200px;
+      /* offset-x | offset-y | blur-radius | color */
+      box-shadow: -10px 5px 7px rgba(0,0,0, 0.3);
+    }
+}
