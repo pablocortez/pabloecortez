@@ -82,3 +82,49 @@ pre {
       box-shadow: -10px 5px 7px rgba(0,0,0, 0.3);
     }
 }
+
+/* Mobile */
+@media (max-width: 699px) {
+
+  .row {
+    overflow: hidden;
+  }
+
+  html {
+    /*background: url(images/profile-up.jpg) no-repeat center center fixed;
+    background-position: -440px -90px;
+
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+    /*background-size: cover;*/
+    background: url(images/profile-up.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: -300px 7px;
+  }
+
+
+  .info-back {
+    margin-top: 70px;
+    width: 150%;
+    margin-left: -32%;
+  }
+
+  .intro {
+    margin-left: 10%;
+  }
+
+  pre {
+    font-size: 16px;
+  }
+
+  .element {
+    margin-left: 40px;
+    font-size: 12px;
+  }
+
+  .typed-cursor {
+    font-size: 12px;
+  }
+}
