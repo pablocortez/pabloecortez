@@ -66,9 +66,9 @@ pre {
 
 
 
-/* Larger than Desktop HD */
+/* Larger than tablet*/
 
-@media (min-width: 1200px) {
+@media (min-width: 700px) {
     .info-back {
       background-color: rgb(31, 29, 31);
       height: 200%;
